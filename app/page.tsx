@@ -6,6 +6,8 @@ import { FaHome } from "react-icons/fa";
 import RecentProjects from "@/components/RecentProjects";
 import { navItems } from "@/data";
 import Achievements from "@/components/Achievements";
+import Experience from "@/components/Experience";
+import Approach from "@/components/Approach";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
         <Grid />
         <RecentProjects/>
         <Achievements/>
+        <Experience/>
+        <Approach/>
       </div>
     </main>
   );
