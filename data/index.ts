@@ -8,8 +8,8 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Early Begining...",
-      description: "I Started Coding from 7th Grade and since then have went on a spree to learn more about Tech. For the last 1 Year I've been into development primarily focusing on App Development whilst also developing in other domains such as Machine Learning & Web. I've also participated as well as organised events and won a few Hackathon's as well including being a Grand-Finalist at the Smart India Hackathon 2023.",
+      title: "Developer former CP'er. Hackathon geek whose into Startups. Organising Event's and much more.",
+      description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
       titleClassName: "justify-end",
@@ -18,7 +18,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Open Source Enthusiast and Contributor !!",
+      title: "Open Source Enthusiast and Contributor",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -190,5 +190,10 @@ export const navItems = [
       id: 3,
       img: "/link.svg",
       link: "https://www.linkedin.com/in/fobic/",
+    },
+    {
+      id: 4,
+      img: "/arrow.svg",
+      link: "/Resume.pdf",
     },
   ];

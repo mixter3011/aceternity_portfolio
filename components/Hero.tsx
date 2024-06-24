@@ -49,20 +49,9 @@ const Hero = () => {
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
-              className=""
             />
           </a>
         </div>
-      </div>
-      <div className="absolute top-[1px] left-[1200px] z-10">
-        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
-          <MagicButton
-            title="Resume"
-            icon=""
-            position="right"
-            className="rounded-full" 
-          />
-        </a>
       </div>
     </div>
   );
