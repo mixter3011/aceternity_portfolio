@@ -38,7 +38,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Grand Finalist SIH 2023 EX Intern NVIDIA & CloudSEK",
+      title: "Grand Finalist SIH 2023 EX Intern NVIDIA & Current Intern CloudSEK",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
