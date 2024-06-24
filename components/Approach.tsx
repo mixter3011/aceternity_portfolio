@@ -12,9 +12,9 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="We'll collaborate to map out our website's goals, target audience, and key functionalitie. We'll discuss things like site struture, navigation, and content requirnments."
+          title="Wireframe & System Design"
+          icon={<AceternityIcon order="PHASE 1" />}
+          description="We'll collaborate to map out our product/projects Wireframe essentially focusing on target audience, and key functionalitie. We'll discuss things like struture, navigation, and content requirnment. We'll also focus on builduing the system design which suits best of our projects interest."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -23,8 +23,8 @@ const Approach = () => {
         </Card>
         <Card
           title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="We'll collaborate to map out our website's goals, target audience, and key functionalitie. We'll discuss things like site struture, navigation, and content requirnments."
+          icon={<AceternityIcon order="PHASE 2" />}
+          description="Constantly Developing over the project by dividing the project in sub phases and addressing each with deadline based approach. At the same a constant interaction and updates regarding the progress and additional features or adjustment to existing features etc."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -37,9 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="We'll collaborate to map out our website's goals, target audience, and key functionalitie. We'll discuss things like site struture, navigation, and content requirnments."
+          title="Final Development & Launch"
+          icon={<AceternityIcon order="PHASE 3" />}
+          description="During the Final Stages of the Project we'll focus on the fine details while in development and finally push into Production."
         >
           <CanvasRevealEffect
             animationSpeed={3}

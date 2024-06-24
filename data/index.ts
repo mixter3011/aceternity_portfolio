@@ -76,7 +76,7 @@ export const navItems = [
       des: "dApp for college event ticket distribution through NFTs with Blockchain Technology.",
       img: "/p1.png",
       imgClassName: "z-10 absolute top-2 w-80 h-80",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+      iconLists: ["/f.svg", "/sol.svg", "/mor.png", "/sea.png", "/meta.png"],
       link: "https://github.com/mixter3011/EZTicket_app.git",
     },
     {
@@ -85,7 +85,7 @@ export const navItems = [
       des: "A Personalized App for Tracking your Carbon Footprint and Device Control just like Google Home also providing User Incentives with NFT based Coupons / Voucher's overlayed on Blockchain Technology providing modern outlook for Users",
       img: "/p2.png",
       imgClassName: "z-10 absolute top-2 w-80 h-80",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      iconLists: ["/f.svg", "/sol.svg", "/fire.svg", "/ghome.svg"],
       link: "https://github.com/mixter3011/Eco_App.git",
     },
     {
@@ -94,7 +94,7 @@ export const navItems = [
       des: "A Complete Pack consisting of two CLI Tools : git-auto & git-re to Automate Git repository creation and initialization or stage, add and commit changes to an existing repository",
       img: "/p3.png",
       imgClassName: "z-10 absolute top-2 w-full h-80",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      iconLists: ["/go.svg", "/pwsh.svg"],
       link: "https://github.com/mixter3011/git-auto.git",
     },
     {
@@ -103,103 +103,73 @@ export const navItems = [
       des: "A Modern Manga App without any paywall. Read over 100+ Manga's. Works on Real-time Scrapping.",
       img: "/p4.png",
       imgClassName: "z-10 absolute top-2 w-80 h-80",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      iconLists: ["/f.svg", "/m.svg", "/js.svg"],
       link: "https://github.com/mixter3011/zolo.git",
     },
   ];
   
   export const testimonials = [
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote:"Achieved First Position in College Level Hackathon organised by Manav Rachna Student's Developer Club (MRSDC) - Hack-It-Up.",
+      img: "/mrsdc.png",
+      name: "MRSDC",
+      title: "Manav Rachna Student's Developer's Club",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote:"Achieved First Position in Blockchain & NFT Track and Second Runners up in overall Hackathon organised by K.R Manglam University - Hack KRMU 3.0.",
+      img: "/krm.png",
+      name: "Hack KRMU 3.0",
+      title: "K.R. Manglam University",
     },
     {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
-    },
-    {
-      quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+      quote:"Grand Finalist at Smart India Hackathon 2023",
+      img: "/sih.png",
+      name: "SIH",
+      title: "Smart India Hackathon 2023",
     },
   ];
   
   export const companies = [
     {
       id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      name: "NVIDIA",
+      img: "/nvidia.svg",
+      nameImg: "/nvidiaName.png",
     },
     {
       id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
+      name: "CloudSEK",
+      img: "/cs.png",
+      nameImg: "/csName.png",
     },
   ];
   
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "CUDA Engineer Intern @ NVIDIA",
+      desc: "Learned about GPU based Algorithm's and imporvised on various alongside learning CUDA.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Data Science Intern @ CloudSEK",
+      desc: "Currently learning about Data Endpoints, Securit Protocol Manipulation and applying various Machine Learning Models to enhance Cloud Security.",
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment.",
+      className: "md:col-span-2", 
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
       title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      desc: "Part of the AI/ML Club at Manav Rachna and conducted various Events and Workshops on various tech Domains.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -209,13 +179,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/mixter3011",
     },
     {
       id: 2,
       img: "/twit.svg",
+      link: "https://x.com/SENachi27",
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/fobic/",
     },
   ];

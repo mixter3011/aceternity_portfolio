@@ -1,4 +1,4 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaFilePdf, FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
@@ -42,16 +42,27 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-4xl">
-            Hi ! I&apos;m SEN, a Developer based in India.
+            Hi ! I&apos;m Sabya, a Developer based in India.
           </p>
           <a href="#projects">
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
               position="right"
+              className=""
             />
           </a>
         </div>
+      </div>
+      <div className="absolute top-[1px] left-[1200px] z-10">
+        <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer">
+          <MagicButton
+            title="Resume"
+            icon=""
+            position="right"
+            className="rounded-full" 
+          />
+        </a>
       </div>
     </div>
   );
